@@ -1,0 +1,24 @@
+object_id,object_type,supa_id,voltage,cable_type,length_m
+0b793198-6ff5-4d9c-a399-5344fe6d22ad,ACLineSegment,KN004-00053499,0.4,[АПвБбШп 4x185],43
+e78cfe21-aa35-428d-a899-a8fe61f8303f,ACLineSegment,KN004-00053504,0.4,[АПвБбШп 4x185],43
+11ee77b8-6283-4a55-b952-72ff6b14200e,ACLineSegment,KN004-00053506,0.4,"[АСБ2л 4x95, ААБ 3х95+1х50]",140
+907b8701-2d9b-4015-a722-eaa9938dc565,ACLineSegment,KN004-00024891,0.4,"[АСБ2л 4x95, АСБ 4х120, ААБ 3х95+1х50]",300
+8552fd31-109a-4889-9922-71ce77307438,ACLineSegment,KN004-00024893,0.4,"[АПвБбШп 4х185, ААБ 3х95+1х50]",300
+4e2d6237-2c94-455e-89ae-2d215782f85a,ACLineSegment,KN004-00053508,0.4,"[АСБ2л 4x95, ААБ 3х95+1х50]",210
+bccc248b-8dad-4214-8a62-7aa0088286e7,ACLineSegment,KN004-00053510,0.4,"[АСБ2л 4x95, АСБ 4х120, ААБ 3х95+1х50]",215
+f6243247-bef6-4fde-b1fe-14da3030aec8,ACLineSegment,KN004-00024879,0.4,[АПвБбШп 4x185],43
+eb9afe5a-cdb3-4083-bcd2-d346ad84fa92,ACLineSegment,KN004-00053502,0.4,[АПвБбШп 4x185],43
+a1486d20-d759-4abf-9a7b-72c411eac9c5,ACLineSegment,KN004-00024885,0.4,"[АСБ2л 4x95, ААБ 3х95+1х50]",140
+ce3ca8f6-5332-4521-8cca-1a39bbb8f85f,ACLineSegment,KN004-00024889,0.4,"[АСБ2л 4x95, ААБ 3х95+1х50]",210
+8a38d9e7-8b80-4e3a-aa2c-8fe93b213a0b,ACLineSegment,KN004-00024887,0.4,"[АСБ2л 4x95, АСБ 4х120, ААБ 3х95+1х50]",215
+87714138-4e04-49a6-b599-27cde541f72b,ACLineSegment,KN004-00024881,0.4,,62
+483617d8-7bdf-4efe-92c4-761899e1e1b8,ACLineSegment,KN004-00024895,0.4,[АПвБбШп 4x185],240
+da94ffae-b7a6-4049-b328-5820aa070591,ACLineSegment,KN004-00065139,0.4,,90
+33a48a31-cdc1-46f7-af72-bab326ea961f,ACLineSegment,KN004-00021553,0.4,,90
+fd5e83e1-4a6d-4ed7-a326-190cf19eb344,ACLineSegment,KN004-00024883,0.4,,24
+751745c8-0cb5-49af-999e-61191a75fb6c,ACLineSegment,KN004-00034481,0.4,[ААБ 3х95+1х50],150
+580c1274-3724-43bd-9765-bbc70fef0641,ACLineSegment,KN004-00034485,0.4,[ААБ 3х95+1х50],45
+277c38c5-e967-4dea-bbcb-c278a89b6f63,ACLineSegment,KN004-00034489,0.4,[ААБ 3х95+1х50],48
+0a53e663-1595-4596-abd4-ec41347aacce,ACLineSegment,KN004-00034493,0.4,[ААБ 3х95+1х50],67
+3352864c-aff8-4d4e-a54a-66879f573cd2,ACLineSegment,KN004-00034389,0.4,,70
+6d98a8ad-d2f5-43d5-aa6e-b2ad1e24cb2e,ACLineSegment,KN004-00021550,0.4,,90
