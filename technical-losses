@@ -16,7 +16,7 @@
    "metadata": {},
    "outputs": [],
    "source": [
-    "topo_df  = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/topo_2199 - topology.csv') \\\n",
+    "topo_df  = pd.read_csv('data\\topo_2199 - topology.csv') \\\n",
     "                      .set_index('branch_id')\n",
     "link_df  = topo_df[topo_df.type.isin(['Link'])]\n",
     "equip_df = topo_df[topo_df.type.isin(['Link']) == False]"
@@ -29,7 +29,7 @@
    "outputs": [],
    "source": [
     "# Загрузка данных о приборах учета \n",
-    "measure_unit = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/TS_2199/topo_2199 - measure_unit.csv') \\\n",
+    "measure_unit = pd.read_csv('data\\TS_2199\topo_2199 - measure_unit.csv') \\\n",
     "               .set_index('terminal_id')"
    ]
   },
@@ -40,9 +40,9 @@
    "outputs": [],
    "source": [
     "# Загрузка данных о кабелях и их параметров\n",
-    "ac_line  = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/topo_2199 - line.csv') \\\n",
+    "ac_line  = pd.read_csv('data\\Test\topo_2199 - line.csv') \\\n",
     "               .set_index('branch_id')\n",
-    "std_cable = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/TS_2199/topo_2199 - std_cable.csv') \\\n",
+    "std_cable = pd.read_csv('data\\Test\TS_2199\topo_2199 - std_cable.csv') \\\n",
     "               .set_index('cable_type')"
    ]
   },
@@ -53,10 +53,10 @@
    "outputs": [],
    "source": [
     "# Загрузка данных по показаниям активной мощности ПУ\n",
-    "meter_act = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/active_power.csv') \\\n",
+    "meter_act = pd.read_csv('data\\Test\active_power.csv') \\\n",
     "                        .set_index('measure_id').T\n",
     "# Загрузка данных по показаниям реактивной мощности ПУ\n",
-    "meter_react = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/reactive_power.csv') \\\n",
+    "meter_react = pd.read_csv('data\\Test\reactive_power.csv') \\\n",
     "                        .set_index('measure_id').T"
    ]
   },
@@ -188,7 +188,7 @@
        "</div>"
       ],
       "text/plain": [
-       "                                                                node_start  \\\n",
+       "                                                               node_start  \\\n",
        "branch_id                                                                    \n",
        "0b793198-6ff5-4d9c-a399-5344fe6d22ad  4ec22423-b389-403b-b4e0-b85a33f7832f   \n",
        "e78cfe21-aa35-428d-a899-a8fe61f8303f  48b2a15b-5838-4874-8461-d76587769de5   \n",
