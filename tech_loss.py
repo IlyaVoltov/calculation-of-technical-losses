@@ -9,16 +9,16 @@ link_df  = topo_df[topo_df.type.isin(['Link'])]
 equip_df = topo_df[topo_df.type.isin(['Link']) == False]
 
 # Загрузка данных о приборах учета 
-measure_unit = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/TS_2199/topo_2199 - measure_unit.csv')                .set_index('terminal_id')
+measure_unit = pd.read_csv('data//topo_2199 - measure_unit.csv')                .set_index('terminal_id')
 
 # Загрузка данных о кабелях и их параметров
-ac_line  = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/topo_2199 - line.csv')                .set_index('branch_id')
-std_cable = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/TS_2199/topo_2199 - std_cable.csv')                .set_index('cable_type')
+ac_line  = pd.read_csv('data//topo_2199 - line.csv')                .set_index('branch_id')
+std_cable = pd.read_csv('data//topo_2199 - std_cable.csv')                .set_index('cable_type')
 
 # Загрузка данных по показаниям активной мощности ПУ
-meter_act = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/active_power.csv')                         .set_index('measure_id').T
+meter_act = pd.read_csv('data//active_power.csv')                         .set_index('measure_id').T
 # Загрузка данных по показаниям реактивной мощности ПУ
-meter_react = pd.read_csv('C://Users/ИТ ФИЦ/Desktop/Test/reactive_power.csv')                         .set_index('measure_id').T
+meter_react = pd.read_csv('data//reactive_power.csv')                         .set_index('measure_id').T
 
 balance_group = topo_df.groupby('bg_num').get_group(1)
 
@@ -239,5 +239,5 @@ for balance_num in topo_df.bg_num.unique():
     loss_20_df   = pd.concat([loss_20_df, loss_20], axis = 1)
     loss_load_df = pd.concat([loss_load_df, load_loss], axis = 1)
 
-loss_load_df.to_csv('C://Users/ИТ ФИЦ/Desktop/Test/loss_load.csv')
-loss_20_df.to_csv('C://Users/ИТ ФИЦ/Desktop/Test/loss_20.csv')
+loss_load_df.to_csv('data//loss_load.csv')
+loss_20_df.to_csv('data//loss_20.csv')
